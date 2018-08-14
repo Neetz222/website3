@@ -1,0 +1,337 @@
+.table-bordered{
+    border-color: purple;
+}
+
+.table{
+    border-color: purple;
+}
+
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid purple;
+}
+
+.table.table-bordered{
+    box-shadow: 5px 5px 5px #888888;
+}
+.navbar{
+    height: 100px;
+}
+
+.phone{
+    position: relative;
+    right: 30px;
+}
+
+.card{
+    border-color: purple;
+}
+
+.card-header{
+    border-color: purple;
+}
+
+hr{
+    border-color: purple;
+}
+
+.boximage{
+    width: 80px;
+    lenght: 80px;
+}
+
+.h1image{
+    width: 40px;
+    length: 40px;
+}
+
+.phone{
+    width: 56px;
+    height: 80px;
+    font-size: 10px;
+}
+
+.phone-image{
+    margin-left: 7px;
+}
+
+.hamb-menu{
+    font-size: 10px;
+    width: 40px;
+    height: 80px;
+}
+
+.h2image{
+    width: 20px;
+    length: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.lower{
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+}
+
+.card{
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.home{
+    padding-top: 90px;
+}
+
+.myul{
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.px30{
+    font-size: 30px;
+}
+
+.px10{
+    font-size: 12px;
+}
+
+*{
+    font-family: Georgia;
+}
+
+.test{
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.purple2{
+    color: purple;
+}
+
+.border1{
+    border: black solid 1px;
+}
+
+@media screen and (min-width: 1200px){
+.left10{
+    position: relative;
+    right: 27px;
+}
+}
+
+@media screen and (max-width: 992px){
+    .mobile-none{
+        display: none;
+        background-color: red;
+    }
+}
+
+.navbar-brand{
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.second-brand{
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+}
+
+.under{
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.dropdown-menu{
+    position: relative;
+    right: 50px;
+
+}
+
+.control{
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+}
+
+.ul2{
+    list-style-image: url("check.svg");
+
+}
+
+.correct{
+    position: relative;
+    top: 23.5px;
+    left: 20px;
+}
+
+.right10{
+    position: relative;
+    left: 10px;
+    bottom: 0.5px;
+}
+
+.px8{
+    font-size: 10px;
+}
+
+.boot-menu{
+    position: absolute;
+    right: 50px;
+}
+
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .left15 {
+        position: relative;
+        right: 33px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .left15{
+        position: relative;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .c992{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .c992{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .d992{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .d992{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .mobile-disabled{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .tel-disabled{
+        display: none;
+    }
+}
+
+.mybadge{
+    font-size: 15px;
+    height: 50px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.jumbotron{
+    border: solid 1px;
+    border-color: purple;
+}
+
+.down-10{
+    position: relative;
+    top: 50px;
+}
+
+.px13{
+    font-size: 13px;
+}
+
+.px17{
+    font-size: 17px;
+}
+.left5{
+    position: relative;
+    right: 5px;
+}
+
+.preffered{
+    height:30px;
+    position: relative;
+    top: 3px;
+    font-size: 12px;
+}
+
+.not-preffered{
+    height:30px;
+    position: relative;
+    top: 23px;
+    font-size: 12px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+a :hover{
+
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    border: none;
+}
+
